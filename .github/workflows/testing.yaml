@@ -22,3 +22,5 @@ jobs:
         run: npm test
       - name: Linter
         run: npm lint
+      - name: Prettier 
+        run: npm prettier
